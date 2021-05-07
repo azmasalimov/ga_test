@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="04219af0-e8ed-4036-a291-63d727a36420">
+  <producedTypes>
+    <objectType typeId="9dcc783b-a016-4de4-b9cd-e165e5252536" valueTypeId="ed75c199-faec-40a3-89c5-bdcceed7f1ca"/>
+    <refType typeId="70f74441-4aae-4110-8ce1-0bd4c13e39d3" valueTypeId="fc95aabe-4784-4e11-91d7-2134049ffcef"/>
+    <selectionType typeId="32470c29-eb0b-4b88-a6b7-3f5ddc906067" valueTypeId="69171b48-7bb2-4c0d-a499-4a176abe6086"/>
+    <listType typeId="9004f06b-910b-4a77-9d56-025f957809b6" valueTypeId="9c063736-f453-4e98-b4b9-a17a77d1aaf2"/>
+    <managerType typeId="2d873b03-5df6-4628-8ee6-18e7fd3b6f12" valueTypeId="5f809b5b-3a99-4d9d-be02-d76f0318b9d7"/>
+  </producedTypes>
+  <name>Пользователи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пользователи</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Пользователи.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Пользователи.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="d3487047-c078-4b13-9c51-d192c4166ed4">
+    <name>Идентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

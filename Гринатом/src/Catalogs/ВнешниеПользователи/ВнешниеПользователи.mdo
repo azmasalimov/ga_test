@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7b2843dd-9a03-4c3b-a0d4-a7d1ff585e88">
+  <producedTypes>
+    <objectType typeId="51f48add-3b7a-48e2-8aa3-9ead5006b29c" valueTypeId="10bf2f30-24b7-4a23-ae9a-21fdc939751c"/>
+    <refType typeId="70b34395-69a1-4f36-8cd8-0622badc08cb" valueTypeId="f192ddb5-dfc8-41f9-94e2-5701e9663307"/>
+    <selectionType typeId="5df9d781-634a-46f8-a87f-909253be5cb0" valueTypeId="31edf813-b087-460c-add0-1c7abe7aac47"/>
+    <listType typeId="555e58f2-0287-4b88-85a7-debdd3752b66" valueTypeId="4860877f-a41e-440c-b719-a72a6d76594a"/>
+    <managerType typeId="5eab9ccc-626a-4958-b3e0-92d03a138540" valueTypeId="20d16e3a-b7c0-4512-bf34-51f7b59c239e"/>
+  </producedTypes>
+  <name>ВнешниеПользователи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Внешние пользователи</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВнешниеПользователи.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ВнешниеПользователи.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="e6115bf8-7f88-4de4-815c-616c41324be7">
+    <name>Идентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d715523c-f2d2-4157-9e9c-05c8bbadaee9">
+    <name>Работа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Работа</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

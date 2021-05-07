@@ -39,4 +39,6 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.ВнешниеПользователи</catalogs>
 </mdclass:Configuration>
