@@ -40,6 +40,7 @@
     <languageCode>ru</languageCode>
   </languages>
   <roles>Role.Администратор</roles>
+  <commonModules>CommonModule.ИнтеграцияСервис</commonModules>
   <constants>Constant.АдресСервиса</constants>
   <catalogs>Catalog.Пользователи</catalogs>
 </mdclass:Configuration>
